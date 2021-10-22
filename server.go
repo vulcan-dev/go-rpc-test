@@ -4,8 +4,8 @@ import (
 	"log"
 	"net"
 
+	"github.com/vulcan-dev/VKMP/chat"
 	"google.golang.org/grpc"
-	"https://github.com/vulcan-dev/VKMP/chat"
 )
 
 func main() {

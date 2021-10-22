@@ -1,4 +1,7 @@
 make all -f "/home/vulcandev/Programming/go-rpc-test/Makefile" --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: /home/vulcandev/Programming/go-rpc-test/Makefile: No such file or directory
+make: *** No rule to make target '/home/vulcandev/Programming/go-rpc-test/Makefile'.  Stop.
+ 
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -6,7 +9,7 @@ make all -f "/home/vulcandev/Programming/go-rpc-test/Makefile" --print-data-base
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Oct 23 00:43:56 2021
+# Make data base, printed on Sat Oct 23 00:47:08 2021
 
 # Variables
 
@@ -15,15 +18,13 @@ GDK_BACKEND = x11
 # environment
 LC_ALL = C
 # environment
-NO_AT_BRIDGE = 1
-# environment
 GTK_RC_FILES = /etc/gtk/gtkrc:/home/vulcandev/.gtkrc:/home/vulcandev/.config/gtkrc
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-36538efa-3152-40ab-98aa-3b3e86ab83cc.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-b715464f-ffef-4017-8314-1f0cabbbaf5c.sock
 # environment
 MANDATORY_PATH = /usr/share/gconf/plasma.mandatory.path
 # environment
-VSCODE_CWD = /home/vulcandev/Programming
+VSCODE_CWD = /home/vulcandev
 # environment
 WINDOWPATH = 3
 # default
@@ -221,7 +222,7 @@ KDE_FULL_SESSION = true
 # environment
 GDMSESSION = plasma
 # variable set hash-table stats:
-# Load=105/1024=10%, Rehash=0, Collisions=6/129=5%
+# Load=104/1024=10%, Rehash=0, Collisions=6/128=5%
 
 # Pattern-specific Variable Values
 
@@ -271,9 +272,6 @@ all:
 # strcache performance: lookups = 9 / hit rate = 33%
 # hash-table stats:
 # Load=6/8192=0%, Rehash=0, Collisions=0/9=0%
-# Finished Make data base on Sat Oct 23 00:43:56 2021
+# Finished Make data base on Sat Oct 23 00:47:08 2021
 
- 
-make: /home/vulcandev/Programming/go-rpc-test/Makefile: No such file or directory
-make: *** No rule to make target '/home/vulcandev/Programming/go-rpc-test/Makefile'.  Stop.
  
